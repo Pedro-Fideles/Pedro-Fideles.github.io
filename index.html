@@ -3,24 +3,61 @@
     <head>
         <meta charset="UTF-8">
         <title>Pedro Fideles</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
         <style>
-            
+            body{
+                background-color: #0c0b0a;
+                color: #EAE0D5; 
+                font-family: outfit;
+                font-size: 20px;
+                line-height: 25px;
+                font-weight: 200;
+                margin-top: 0px;
+                margin-left: 0px;
+                margin-right: 0px;
+            }
+
+            strong{
+                color: #C6AC8F; 
+                font-weight: 600;
+            }
+
+            .titulos{
+                color: #C6AC8F;
+            }
+
+            #topo{
+                background-color: #22333B;
+                margin-top: 0%;
+                margin-left: 0%;
+                padding: 15px;
+                text-align: center;
+            }
+
+            #foto-perfil{
+                width: 300px;
+                border-radius: 50%;
+                border: solid;
+                border-color: #C6AC8F;
+                margin: auto;
+            }
+
+            #apresentacao{
+                background-color: #22333B;
+                margin-left: 5%;
+                margin-right: 5%;
+                padding:10px;
+            }
         </style>
     </head>
     <body>
-        <h1>Pedro Henrique Fideles</h1><br>
-        <img src="img/foto_perfil.jpg" alt="foto de Pedro" width="400px" id="foto">
-        <p id="apresentacao">Meu nome é Pedro Fideles, gosto de ser chamado de <strong>Fideles</strong>. Moro em Santa Isabel - SP e nasci na mesma cidade. Sempre amei exercícios e desafios de lógica e me encontrei desenvolvimento back-end.</p>
+        <h1 class="titulos" id="topo">Pedro Henrique Fideles</h1><br>
+        <img id="foto-perfil" src="img/foto_perfil.jpg" alt="foto de Pedro">
+        <p id="apresentacao">Meu nome é Pedro Fideles, gosto de ser chamado de <strong>Fideles</strong>. Sou brasileiro, moro em Santa Isabel - SP e nasci nessa mesma cidade. Sempre amei exercícios e desafios de lógica e me encontrei no desenvolvimento back-end.</p>
         <hr>
-        <h4><em>Sumário</em></h4>
-        <ul>
-            <li><a href="#foto">Minha Foto</a></li>
-            <li><a href="#apresentacao">Apresentação</a></li>
-            <li><a href="#conhecimentos">Conhecimentos</a></li>
-            <li><a href="#recomendacao">Recomendação</a></li>
-        </ul>
-        <hr>
-        <h4 id="conhecimentos">Alguns conhecimentos</h4>
+        <h4 class="titulos">Alguns conhecimentos</h4>
         <ul>
             <li>PHP</li>
             <li>SQL</li>
