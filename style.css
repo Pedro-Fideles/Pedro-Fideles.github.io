@@ -1,0 +1,47 @@
+body{
+    background-color: #0c0b0a;
+    color: #EAE0D5; 
+    font-family: outfit;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 200;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+strong{
+    color: #C6AC8F; 
+    font-weight: 600;
+}
+
+.titulos{
+    color: #C6AC8F;
+}
+
+#topo{
+    background-color: #22333B;
+    margin-top: 0%;
+    margin-left: 0%;
+    padding: 15px;
+    text-align: center;
+}
+
+#alinha-foto{
+    text-align: center;
+}
+
+#foto-perfil{
+    width: 300px;
+    border-radius: 50%;
+    border: solid;
+    border-color: #C6AC8F;
+    margin: auto;
+}
+
+#apresentacao{
+    background-color: #22333B;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding:10px;
+}
